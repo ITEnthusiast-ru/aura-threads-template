@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Aura Threads - Modern Fashion (2025 Concept)</title>
+
+    <!-- Font Awesome for Icons (Replace with SVGs if preferred for better performance/control) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Хедер -->
+    <header class="main-header" id="mainHeader">
+      <div class="container header-container">
+        <a href="#" class="logo">Aura</a>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#new-arrivals">New Arrivals</a></li>
+            <li><a href="#categories">Collections</a></li>
+            <li><a href="#lookbook">Lookbook</a></li>
+            <li><a href="#footer">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-actions">
+          <a href="#" aria-label="Search"
+            ><i class="fas fa-search"></i> <span class="icon-label"></span
+          ></a>
+          <a href="#" aria-label="Account"
+            ><i class="fas fa-user"></i> <span class="icon-label"></span
+          ></a>
+          <a href="#" class="cart-link" aria-label="Shopping Cart">
+            <i class="fas fa-shopping-bag"></i>
+            <span class="cart-count">3</span>
+            <!-- Примеры карточек -->
+            <span class="icon-label"></span>
+          </a>
+          <button class="menu-toggle" aria-label="Toggle Menu">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- главная секция -->
+      <section class="hero" id="home">
+        <div class="hero-content container">
+          <h1>Effortless Style, Redefined</h1>
+          <p>
+            Discover curated collections where modern design meets timeless
+            elegance. Elevate your wardrobe with Aura Threads.
+          </p>
+          <a href="#new-arrivals" class="btn btn-primary"
+            >Shop New Collection</a
+          >
+        </div>
+      </section>
+
+      <!-- Секция категорий -->
+      <section class="featured-categories section-padding" id="categories">
+        <div class="container text-center">
+          <h2 class="section-title">Explore Our Collections</h2>
+          <p class="section-subtitle">
+            From sophisticated staples to statement pieces, find your perfect
+            look for every occasion.
+          </p>
+          <div class="category-grid">
+            <div class="category-card">
+              <img src="images/woman.jpeg" alt="Category: Dresses" />
+              <div class="category-content">
+                <h3>Elegant Dresses</h3>
+                <a href="#">Shop Now →</a>
+              </div>
+            </div>
+            <div class="category-card">
+              <img
+                src="images/t-short.jpeg"
+                alt="Category: Tops &amp; Blouses"
+              />
+              <div class="category-content">
+                <h3>Chic Tops</h3>
+                <a href="#">Discover More →</a>
+              </div>
+            </div>
+            <div class="category-card">
+              <img
+                src="images/bottoms.jpeg"
+                alt="Category: Denim &amp; Bottoms"
+              />
+              <div class="category-content">
+                <h3>Modern Denim</h3>
+                <a href="#">View Collection →</a>
+              </div>
+            </div>
+            <div class="category-card">
+              <img src="images/short.jpg" alt="Category: Accessories" />
+              <div class="category-content">
+                <h3>Accessories</h3>
+                <a href="#">Explore Styles →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Новинки секция -->
+      <section class="new-arrivals section-padding" id="new-arrivals">
+        <div class="container text-center">
+          <h2 class="section-title">Fresh This Week</h2>
+          <p class="section-subtitle">
+            Check out the latest additions to our store. Limited pieces
+            available.
+          </p>
+          <div class="product-grid">
+            <!-- Карта  товара 1 -->
+            <div class="product-card">
+              <div class="product-image">
+                <img src="images/maxy-dress.jpeg" alt="Product Name 1" />
+                <div class="product-overlay">
+                  <a href="#" class="btn">Quick View</a>
+                </div>
+              </div>
+              <div class="product-info">
+                <h4>Flowy Maxi Dress</h4>
+                <p class="product-price">$129.00</p>
+              </div>
+            </div>
+            <!-- Карта  товара 2 -->
+            <div class="product-card">
+              <div class="product-image">
+                <img src="images/top.jpg" alt="Product Name 2" />
+                <div class="product-overlay">
+                  <a href="#" class="btn">Quick View</a>
+                </div>
+              </div>
+              <div class="product-info">
+                <h4>Ribbed Knit Top</h4>
+                <p class="product-price">$65.00</p>
+              </div>
+            </div>
+            <!-- Карта  товара 3 -->
+            <div class="product-card">
+              <div class="product-image">
+                <img src="images/trothses.jpg" alt="Product Name 3" />
+                <div class="product-overlay">
+                  <a href="#" class="btn">Quick View</a>
+                </div>
+              </div>
+              <div class="product-info">
+                <h4>Wide-Leg Trousers</h4>
+                <p class="product-price">
+                  $98.00 <span class="original-price">$120.00</span>
+                </p>
+              </div>
+            </div>
+            <!-- Карта  товара 4 -->
+            <div class="product-card">
+              <div class="product-image">
+                <img src="images/clothes.jpeg" alt="Product Name 4" />
+                <div class="product-overlay">
+                  <a href="#" class="btn">Quick View</a>
+                </div>
+              </div>
+              <div class="product-info">
+                <h4>Classic Denim Jacket</h4>
+                <p class="product-price">$115.00</p>
+              </div>
+            </div>
+          </div>
+          <div style="margin-top: 50px">
+            <a href="#" class="btn btn-secondary">View All Products</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Книга стиля как одеваться -->
+      <section class="lookbook section-padding" id="lookbook">
+        <div class="container">
+          <div class="lookbook-content">
+            <div class="lookbook-image-large">
+              <img
+                src="images/woman-yelow.jpeg"
+                alt="Lookbook Inspiration Image"
+              />
+            </div>
+            <div class="lookbook-text">
+              <h2>The Art of Layering</h2>
+              <p>
+                Discover how to seamlessly blend textures and silhouettes for a
+                look that's uniquely yours. Our latest lookbook provides
+                inspiration for transitioning through seasons with style and
+                confidence.
+              </p>
+              <a href="#" class="btn btn-accent">Get Inspired</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Подписка -->
+      <section class="newsletter section-padding">
+        <div class="container">
+          <h2>Stay In The Know</h2>
+          <p>
+            Subscribe to our newsletter for exclusive updates, early access to
+            sales, and style inspiration delivered straight to your inbox.
+          </p>
+          <form class="newsletter-form">
+            <input
+              type="email"
+              placeholder="Enter your email address"
+              required=""
+            />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer" id="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-column">
+            <h4>Aura Threads</h4>
+            <p>
+              Crafting modern elegance for the discerning individual. Quality
+              fabrics, timeless designs.
+            </p>
+          </div>
+          <div class="footer-column">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#new-arrivals">New Arrivals</a></li>
+              <li><a href="#">Best Sellers</a></li>
+              <li><a href="#">Sale</a></li>
+              <li><a href="#lookbook">Lookbook</a></li>
+              <li><a href="#">Gift Cards</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Customer Care</h4>
+            <ul>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Shipping &amp; Returns</a></li>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Size Guide</a></li>
+              <li><a href="#">Track Order</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Follow Us</h4>
+            <p>Connect with us on social media:</p>
+            <div class="social-icons">
+              <a href="#" aria-label="Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" aria-label="Pinterest"
+                ><i class="fab fa-pinterest-p"></i
+              ></a>
+              <a href="#" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          © 2025 Aura Threads. All Rights Reserved. | Design Concept
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Простой скрипт для эффекта прокрутки заголовка (необязательный, но придающий «современный» вид)
+      const header = document.getElementById("mainHeader");
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 50) {
+          header.classList.add("scrolled");
+        } else {
+          header.classList.remove("scrolled");
+        }
+      });
+
+      // нужно доработать  для  функиональности
+      // const menuToggle = document.querySelector(".menu-toggle");
+      // const mainNav = document.querySelector(".main-nav");
+      // menuToggle.addEventListener("click", () => {
+      //   mainNav.classList.toggle("mobile-active");
+      // });
+    </script>
+  </body>
+</html>
